@@ -19,20 +19,32 @@
       "allowedVersions": ">=1.21.0"
     },
     {
+      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-driver"],
+      "groupName": "rancher/mirrored-cloud-provider-vsphere-csi-release-driver"
+    },
+    {
       "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-syncer"],
       "groupName": "rancher/mirrored-cloud-provider-vsphere-csi-release-syncer"
     },
     {
-      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-driver"],
-      "groupName": "rancher/mirrored-cloud-provider-vsphere-csi-release-driver"
+      "matchDepNames": ["rancher/mirrored-sig-storage-csi-attacher"],
+      "groupName": "rancher/mirrored-sig-storage-csi-attacher"
+    },
+    {
+      "matchDepNames": ["rancher/mirrored-sig-storage-csi-node-driver-registrar"],
+      "groupName": "rancher/mirrored-sig-storage-csi-node-driver-registrar"
     },
     {
       "matchDepNames": ["rancher/mirrored-sig-storage-csi-provisioner"],
       "groupName": "rancher/mirrored-sig-storage-csi-provisioner"
     },
     {
-      "matchDepNames": ["rancher/mirrored-sig-storage-csi-node-driver-registrar"],
-      "groupName": "rancher/mirrored-sig-storage-csi-node-driver-registrar"
+      "matchDepNames": ["rancher/mirrored-sig-storage-csi-resizer"],
+      "groupName": "rancher/mirrored-sig-storage-csi-resizer"
+    },
+    {
+      "matchDepNames": ["rancher/mirrored-sig-storage-livenessprobe"],
+      "groupName": "rancher/mirrored-sig-storage-livenessprobe"
     },
     {
       "matchManagers": ["helm-values", "regex"],
