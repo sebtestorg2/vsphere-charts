@@ -4,7 +4,7 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "vsphere-chart/values.yaml$"
+        "values.yaml$"
       ],
       "matchStrings": [
         "repository: (?<depName>.*?)\n *tag: (?<currentValue>.*)\n"
