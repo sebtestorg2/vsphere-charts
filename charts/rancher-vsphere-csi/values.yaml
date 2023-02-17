@@ -224,7 +224,7 @@ versionOverrides:
             tag: v3.3.0
           csiResizer:
             repository: rancher/mirrored-sig-storage-csi-resizer
-            tag: v1.3.0
+            tag: v1.4.0
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
             tag: v2.4.0
