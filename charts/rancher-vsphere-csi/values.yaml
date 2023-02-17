@@ -34,7 +34,7 @@ csiController:
       tag: v1.4.0
     livenessProbe:
       repository: rancher/mirrored-sig-storage-livenessprobe
-      tag: v2.6.0
+      tag: v2.7.0
     vsphereSyncer:
       repository: rancher/mirrored-cloud-provider-vsphere-csi-release-syncer
       tag: v2.6.2
@@ -105,7 +105,7 @@ csiNode:
       tag: v2.5.0
     livenessProbe:
       repository: rancher/mirrored-sig-storage-livenessprobe
-      tag: v2.6.0
+      tag: v2.7.0
 
 storageClass:
   enabled: true
@@ -196,7 +196,7 @@ versionOverrides:
             tag: v1.4.0
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
-            tag: v2.6.0
+            tag: v2.7.0
           vsphereSyncer:
             repository: rancher/mirrored-cloud-provider-vsphere-csi-release-syncer
             tag: v2.5.4
@@ -212,7 +212,7 @@ versionOverrides:
             tag: v2.5.0
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
-            tag: v2.6.0
+            tag: v2.7.0
   - constraint: "~ 1.20"
     values:
       csiController:
@@ -227,7 +227,7 @@ versionOverrides:
             tag: v1.3.0
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
-            tag: v2.4.0
+            tag: v2.7.0
           vsphereSyncer:
             repository: rancher/mirrored-cloud-provider-vsphere-csi-release-syncer
             tag: v2.4.3
@@ -243,4 +243,4 @@ versionOverrides:
             tag: v2.3.0
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
-            tag: v2.4.0
+            tag: v2.7.0
