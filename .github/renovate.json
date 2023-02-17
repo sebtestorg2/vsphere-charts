@@ -20,18 +20,7 @@
       "separateMinorPatch": true
     },
     {
-      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-cpi-release-manager"],
-      "matchUpdateTypes": ["major", "minor"],
-      "enabled": false
-    },
-    {
-      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-driver"],
-      "groupName": "mirrored-cloud-provider-vsphere-csi-release-driver",
-      "allowedVersions": ">=2.5.0",
-      "separateMinorPatch": true
-    },
-    {
-      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-driver"],
+      "matchManagers": ["helm-values", "regex"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": false
     }
