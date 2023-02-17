@@ -23,6 +23,10 @@
       "matchManagers": ["helm-values", "regex"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": false
+    },
+    {
+      "matchManagers": ["helm-values", "regex"],
+      "separateMinorPatch": true
     }
   ]
 }
