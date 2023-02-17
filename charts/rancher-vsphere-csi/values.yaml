@@ -221,7 +221,7 @@ versionOverrides:
           tag: v2.4.3
           csiAttacher:
             repository: rancher/mirrored-sig-storage-csi-attacher
-            tag: v3.3.0
+            tag: v3.4.0
           csiResizer:
             repository: rancher/mirrored-sig-storage-csi-resizer
             tag: v1.3.0
