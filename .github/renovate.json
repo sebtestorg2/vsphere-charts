@@ -16,8 +16,15 @@
     {
       "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-cpi-release-manager"],
       "groupName": "mirrored-cloud-provider-vsphere-cpi-release-manager",
-      "allowedVersions": ">=1.21.0",
-      "separateMinorPatch": true
+      "allowedVersions": ">=1.21.0"
+    },
+    {
+      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-syncer"],
+      "groupName": "rancher/mirrored-cloud-provider-vsphere-csi-release-syncer"
+    },
+    {
+      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-csi-release-driver"],
+      "groupName": "rancher/mirrored-cloud-provider-vsphere-csi-release-driver"
     },
     {
       "matchManagers": ["helm-values", "regex"],
