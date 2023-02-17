@@ -230,7 +230,7 @@ versionOverrides:
             tag: v2.4.0
           vsphereSyncer:
             repository: rancher/mirrored-cloud-provider-vsphere-csi-release-syncer
-            tag: v2.4.2
+            tag: v2.4.3
           csiProvisioner:
             repository: rancher/mirrored-sig-storage-csi-provisioner
             tag: v3.0.0
