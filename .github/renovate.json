@@ -27,6 +27,14 @@
       "groupName": "rancher/mirrored-cloud-provider-vsphere-csi-release-driver"
     },
     {
+      "matchDepNames": ["rancher/mirrored-sig-storage-csi-provisioner"],
+      "groupName": "rancher/mirrored-sig-storage-csi-provisioner"
+    },
+    {
+      "matchDepNames": ["rancher/mirrored-sig-storage-csi-node-driver-registrar"],
+      "groupName": "rancher/mirrored-sig-storage-csi-node-driver-registrar"
+    },
+    {
       "matchManagers": ["helm-values", "regex"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": false
