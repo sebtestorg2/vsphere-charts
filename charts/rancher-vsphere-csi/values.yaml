@@ -102,7 +102,7 @@ csiNode:
     tag: v2.6.2
     nodeDriverRegistrar:
       repository: rancher/mirrored-sig-storage-csi-node-driver-registrar
-      tag: v2.5.0
+      tag: v2.5.1
     livenessProbe:
       repository: rancher/mirrored-sig-storage-livenessprobe
       tag: v2.6.0
@@ -178,7 +178,7 @@ versionOverrides:
           tag: v2.6.1
           nodeDriverRegistrar:
             repository: rancher/mirrored-sig-storage-csi-node-driver-registrar
-            tag: v2.5.0
+            tag: v2.5.1
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
             tag: v2.7.0
@@ -209,7 +209,7 @@ versionOverrides:
           tag: v2.5.3
           nodeDriverRegistrar:
             repository: rancher/mirrored-sig-storage-csi-node-driver-registrar
-            tag: v2.5.0
+            tag: v2.5.1
           livenessProbe:
             repository: rancher/mirrored-sig-storage-livenessprobe
             tag: v2.6.0
