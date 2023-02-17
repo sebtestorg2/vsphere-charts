@@ -1,0 +1,28 @@
+{
+  "extends": ["github>sebtestorg2/renovate-config#develop"],
+  "baseBranches": ["main"],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "vsphere-chart/values.yaml$"
+      ],
+      "matchStrings": [
+        "repository: (?<depName>.*?)\n *tag: (?<currentValue>.*)\n"
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-cpi-release-manager"],
+      "groupName": "mirrored-cloud-provider-vsphere-cpi-release-manager",
+      "allowedVersions": ">=1.21.0",
+      "separateMinorPatch": true
+    },
+    {
+      "matchDepNames": ["rancher/mirrored-cloud-provider-vsphere-cpi-release-manager"],
+      "matchUpdateTypes": ["major", "minor"],
+      "enabled": false
+    }
+  ]
+}
