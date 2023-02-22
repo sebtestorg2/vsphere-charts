@@ -171,7 +171,7 @@ versionOverrides:
             tag: v2.6.0
           csiProvisioner:
             repository: rancher/mirrored-sig-storage-csi-provisioner
-            tag: v3.2.0
+            tag: v3.2.1
       csiNode:
         image:
           repository: rancher/mirrored-cloud-provider-vsphere-csi-release-driver
